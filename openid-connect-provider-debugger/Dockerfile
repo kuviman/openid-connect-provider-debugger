@@ -1,7 +1,8 @@
 # checkov:skip=CKV_DOCKER_3
 FROM openresty/openresty:1.27.1.2-3-alpine-fat@sha256:eb0d368d262cc82b867d88f48b49a93ad9247436b65d459a14940d28ccd0e67b
 
-ARG LUA_RESTY_OPENIDC_VERSION="1.8.0-1"
+ARG LUA_RESTY_OPENIDC_VERSION=
+# "1.8.0-1"
 
 SHELL ["/bin/ash", "-euo", "pipefail", "-c"]
 
